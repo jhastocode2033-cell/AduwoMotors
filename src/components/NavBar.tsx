@@ -1,5 +1,5 @@
 import aduwo from "../assets/aduwo.png"
-import Contact from "../pages/Contact"
+
 
 export default function NavBar(){
 
