@@ -1,4 +1,5 @@
 import aduwo from "../assets/aduwo.png"
+import Link from "react-router-dom"
 
 
 export default function NavBar(){
@@ -19,12 +20,12 @@ export default function NavBar(){
 
 
   <div>
-    <a
-      href="/contact"
-      className="bg-[#d8383a] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#850205] transition-colors"
-    >
-      Contact Us
-    </a>
+  <Link
+   to="/contact"
+     className="mt-5 rounded-full bg-[#d8383a] px-6 py-3 text-center font-semibold text-white transition hover:bg-[#c02e30]"
+     >
+    Contact Us
+   </Link>
   </div>
 
 </div>
